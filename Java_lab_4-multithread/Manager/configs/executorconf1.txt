@@ -1,0 +1,3 @@
+# коментарии начинаются с #
+MODE = ENCODE
+OUT_BUFFER_SIZE = 10000000

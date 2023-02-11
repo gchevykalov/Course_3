@@ -1,0 +1,17 @@
+# коментарии начинаются с #
+# порядок executor'ов на конвейере определяется порядком упоминания в этом файле (одна строка - один executor)
+# порядок конфигурационных файлов должен соответствовать порядку executor'ов
+
+INPUT_FILE = testFiles/test.png
+OUTPUT_FILE = testFiles/testDec.png
+
+ READER_NAME = com.java_polytech.pipeline.ReaderMy
+WRITER_NAME = com.java_polytech.pipeline.WriterMy
+EXECUTOR_NAME = com.java_polytech.pipeline.ACExecutor
+EXECUTOR_NAME = com.java_polytech.pipeline.ACExecutor
+
+READER_CONFIG = configs/readerconf.txt
+WRITER_CONFIG = configs/writerconf.txt
+EXECUTOR_CONFIG = configs/executorconf1.txt
+EXECUTOR_CONFIG = configs/executorconf2.txt
+
